@@ -2,34 +2,65 @@
 <html>
 
 <head>
-    <title> Login Page </title>
+    <meta http-equiv="refresh" content="360"> <!-- لجعل المتصفح يحدّث الصفحة ذاتيًا كل ٣٦٠ ثانية-->
+    <meta charset="UTF-8"> <!-- لجعل صفحة الموقع تدع اللغة العربية-->
+    <title> صفحة تسجيل الدخول </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <p>Login</p>
-    <br> 
-    <p>Enjoy exclusive services </p>
-    <form method="post" action="">
-        <p>
+    <div class="logIn-Wrapprr">
+        <!--اسم كلاس محتوى الصفحة ككل-->
+        <div class="logIng-Title">
+            <p>تسجيل الدخول</p>
             <br>
-            <label>Email:
-                <input text="text">
-
-            </label>
-        </p>
-        <p>
-            <label>Password:
-                <input text="text">
-
-            </label>
-        </p>
-
-        <p>
-            <input type="submit" value="Login">
-        </p>
+        </div>
 
 
-    </form>
+        <div class="logIn-Form">
+            <form method="get" action=""> <!--هنا أضع وحدة من ال methods-->
+                <!---->
+                <div class="inputBox">
+
+
+                    <label>
+                        <input text="text" placeholder="البريد الإلكتروني" required>
+                        <div class="icons-User-Lock"> <i class='bx bxs-user'></i></div>
+                    </label>
+                </div>
+
+
+                <div class="inputBox">
+                    <label>
+                        <input text="text" placeholder="كلمة المرور" required>
+                        <div class="icons-User-Lock"> <i class='bx bxs-lock-alt'></i> </div>
+                    </label>
+                </div>
+
+
+
+                <div class="rememeber-forgot"> <a href="#"> هل نسيت كلمة المرور؟</a>
+                    <label> <input type="checkbox"> تذكرني</label>
+                </div>
+
+
+
+                <div class="logIn-Button">
+                    <button type="submit" class="btn">دخول</button>
+                </div>
+
+                <div class="createAccpount-page">
+                    <p>
+                        ألا تمتلك حساب؟
+                        <a href="#"> تسجيل</a>
+                    </p>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
