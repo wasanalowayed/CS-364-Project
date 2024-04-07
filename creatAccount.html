@@ -2,47 +2,78 @@
 <html>
 
 <head>
-    <title>Register</title>
+    <meta http-equiv="refresh" content="360"> <!-- لجعل المتصفح يحدّث الصفحة ذاتيًا كل ٣٦٠ ثانية-->
+    <meta charset="UTF-8"><!--لأننا بنستخدم اللغه العربيه -->
+    <title>تسجيل حساب </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 
 <body>
-    <p>Not a Member Yet?</p>
-    <form method="post" action="action={}">
-        <input type="text" placeholder="First Name *">
-        <br>
-        <br>
-        <input type="text" placeholder="Last Name *">
-        <br>
-        <br>
-        <label>Date Of Birth:</label>
-        <br>
-        <input type="date">
-        <br>
-        <br>
-        <input type="email" placeholder="Email *">
-        <br>
-        <br>
+    <div class="Regester">
+        <p>لست عضو حتى الأن ؟</p>
+        <form method="post" action="action={}">
+            <div class="myinputBox">
+                <label>
+                    <input type="text" placeholder="الأسم الاول  *" required>
+                    <div class="icons-User-Lock"> <i class='bx bxs-user'></i></div>
+                </label>
+            </div>
 
-        <input type="tel" placeholder="Telephone *">
-        <br>
-        <br>
-        <label>Gender:</label>
-        <select name="Gender">
-            <option>Female</option>
-            <option>Male</option>
-        </select>
-        <br>
-        <br>
-        <input type="password" placeholder="Password *">
-        <br>
-        <br>
-        <input type="password" placeholder="Confirm Password *">
-        <br>
-        <br>
-        <input type="submit" value="submit">
+            
+            <div class="myinputBox">
+                <lable>
+                    <input type="text" placeholder=" الأسم اأخير  *" required>
+                    <div class="icons-User-Lock"> <i class='bx bxs-user'></i></div>
+                </lable>
+            </div>
+            
+            
+            <div class="myBirth">
+                <label>تاريخ الميلاد:</label>
+            </div>
+            <br>
+            <div class="myDate">
+                <input type="date" required>
+            </div>
+            <br>
 
+            <div class="myinputBox">
+                <label>
+                    <input type="email" placeholder="البريد الألكتروني*" required>
+                    <div class="icons-user-Lock"> <i class='bx bxs-user'></i></div>
+                </label>
+            </div>
 
-    </form>
+            
+
+            <div class="myinputBox">
+                <input type="tel" placeholder="رقم الهاتف*" required>
+            </div>
+            
+
+            <div class="gender">
+                <label>الجنس :</label>
+                <select name="الجنس">
+                    <option>انثى</option>
+                    <option>ذكر</option>
+                </select>
+            </div>
+            
+            <div class="myinputBox">
+                <input type="password" placeholder="الرقم السري*">
+            </div>
+            <br>
+            <div class="myinputBox">
+                <input type="password" placeholder="تأكيد الرقم السري  *">
+            </div>
+            
+
+            <div class="mybutton">
+                <button type="submit" class="btnn">تسجيل</button>
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>
