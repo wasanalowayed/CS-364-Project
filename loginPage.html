@@ -19,7 +19,8 @@
 
 
         <div class="logIn-Form">
-            <form method="get" action=""> <!--هنا أضع وحدة من ال methods-->
+            <form method="get" action="">
+                <!--هنا أضع وحدة من ال methods-->
                 <!---->
                 <div class="inputBox">
 
@@ -61,6 +62,19 @@
             </form>
         </div>
     </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            const email = document.getElementById('email');
+            const password = document.getElementById('password');
+
+            if (!email.value.trim() || !password.value.trim()) {
+                event.preventDefault(); // Prevent form submission if fields are empty
+                alert('الرجاء إدخال البريد الإلكتروني وكلمة المرور');
+            }
+        });
+    </script>
+
 </body>
 
 </html>
