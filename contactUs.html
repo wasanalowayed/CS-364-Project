@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--header section statrt-->
+  <header>
+
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <a href="#" class="logo"> مأوى المحبة<span> </span></a>
+
+    <nav class="navbar">
+      <a href="#home">الرئيسية</a>
+      <a href="#about">من نحن</a>
+      <a href="#products">الحيوانات المنقذة</a>
+      <a href="#contact"> تواصل معنا</a>
+
+    </nav>
+
+    <div class="icons">
+      <a href="#" class="fas fa-heart"></a>
+      <a href="#" class="fas fa-user"></a>
+    </div>
+
+  </header>
+
+  <!--header section end-->
+  <div class="container">
+    <form id="form">
+      <h3>تواصل معنا </h3>
+      <div>
+        <input type="text" id="name" placeholder="اسمك">
+        <div class="error"></div>
+      </div>
+      <div>
+        <input type="email" id="email" placeholder="الأيميل">
+        <div class="error"></div>
+      </div>
+      <div>
+        <input type="text" id="phone" placeholder="رقم الجوال">
+        <div class="error"></div>
+      </div>
+      <div>
+        <textarea id="message" rows="4" placeholder="كيف يمكنني مساعدتك؟"></textarea>
+        <div class="error"></div>
+      </div>
+      <button id="btn" type="submit">ارسال</button>
+      <div>
+        <div>
+          <a href="https://www.instagram.com/"><img id="insta" src="instagram-icon.png"></a>
+        </div>
+        <div>
+          <a href="https://twitter.com/?lang=ar"><img id="xx" src="X_icon.svg.png"></a>
+        </div>
+        <div>
+          <a href="https://www.snapchat.com/ar"><img id="snap" src="images.png"></a>
+        </div>
+      </div>
+      <p id="myp"></p>
+
+    </form>
+  </div>
+  <script>
+    const form = document.getElementById("form");
+
+    form.addEventListener("submit", function (event) {
+      event.preventDefault(); // Prevent form submission by default
+      validateInput();
+    });
+
+    function setError(element, message) {
+      const inputControl = element.parentElement;
+      const errorDisplay = inputControl.querySelector(".error");
+
+      errorDisplay.innerText = message;
+      inputControl.classList.add("error");
+      inputControl.classList.remove("success");
+    }
+
+    function setSuccess(element) {
+      const inputControl = element.parentElement;
+      const errorDisplay = inputControl.querySelector(".error");
+
+      errorDisplay.innerText = ""; // Clear any existing error message
+      inputControl.classList.add("success");
+      inputControl.classList.remove("error");
+    }
+
+    function validateInput() {
+      const name = document.getElementById("name");
+      const email = document.getElementById("email");
+      const phone = document.getElementById("phone");
+      const message = document.getElementById("message");
+
+
+      if (name.value.trim() === "") {
+        setError(name, "* الاسم مطلوب");
+      } else {
+        setSuccess(name);
+      }
+
+      if (email.value.trim() === "") {
+        setError(email, "* الايميل مطلوب  ");
+      } else {
+        setSuccess(email);
+      }
+      if (phone.value.trim() === "") {
+        setError(phone, "* رقم الجوال مطلوب ");
+      } else {
+        setSuccess(phone);
+
+        if (message.value.trim() === "") {
+          setError(message, "* لقد نسيت ان تضع رسالتك ");
+        } else {
+          setSuccess(message);
+        }
+      }
+    }
+  </script>
+</body>
+
+</html>
