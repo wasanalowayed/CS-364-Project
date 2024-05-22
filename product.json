@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "name": "اورانج",
+        "detailsProduct": "الجنس:انثى العمر:سنتين التعقيم:نعم",
+        "image": "Images/cat1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "ليلى",
+        "detailsProduct": "الجنس:انثى العمر:شهر التعقيم:لا",
+        "image": "Images/cat2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "عنتر",
+        "detailsProduct": "الجنس:ذكر العمر:سنة التعقيم:نعم",
+        "image": "Images/cat3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "يوكي",
+        "detailsProduct": "الجنس:انثى العمر:سنة التعقيم:لا",
+        "image": "Images/cat4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "لولو",
+        "detailsProduct": "الجنس:انثى العمر:3 سنين التعقيم:لا",
+        "image": "Images/cat5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "كاسبر",
+        "detailsProduct": "الجنس:ذكر العمر:سنتين التعقيم:لا",
+        "image": "Images/dog1.jpg"
+    },
+    {
+        "id": 7,
+        "name": "كيارا",
+        "detailsProduct": "الجنس:انثى العمر:سنة التعقيم:نعم",
+        "image": "Images/dog3.jpg"
+    }
+
+    
+]
