@@ -543,6 +543,7 @@ createAccpount-page p a:hover
 /*نهاية تصميم loginPage.html*/
 
 /*بدايه creatAccount.html*/
+/*بدايه creatAccount.html*/
 
 *
 {
@@ -558,7 +559,7 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url("2818073.png");
+    background: url('Images/catmain.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -572,7 +573,7 @@ body
 .Regester{
     width: 420px;
     background-color: transparent;
-    border: 2px solid rgba(255, 255, 255, .2);
+    border: 2px solid rgba(52, 28, 28, 0.2);
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, blue0, .2);
     color: #000; /* لون النصوص في الكلاس المحدد*/
@@ -612,7 +613,7 @@ body
 
 }
 .myBirth{
-
+   
     text-align: right;
 
 }
@@ -700,6 +701,15 @@ body
     color: #000;
     font-weight: 600;
 }
+.error{
+    color: #e91111;
+    display: block;
+    padding: 10px;
+   
+}
+
+
+
 /*نهاية تصميم creatAcount.html*/
 /* بداية cartPage */
 .containerCart {
@@ -861,3 +871,83 @@ header .icon-cart span{
 
 /* نهاية cartPage */
 
+
+/* contactUsبدايه تصميم*/
+body{
+    background-color: #ffebeb
+}
+.container{
+    margin: auto;
+    margin-top: 20%;
+    background-color: #ffebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    text-align: center;
+}
+form h3{
+    color: #555;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+form input,form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+}
+form button{
+    padding:15px;
+    background-color: #ffebeb;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+#insta{
+    border: 1px solid hidden;
+    border-radius: 50%;
+    width:60px;
+    float:left;
+    margin-left:33% ;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+#xx{
+    border: 1px solid hidden;
+    border-radius: 50%;
+    width:60px;
+     float:left;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+#snap{
+    border: 1px solid hidden;
+    border-radius: 50%;
+    width:60px ;
+    float: left;
+    margin-top: 20px;
+    margin-right: 30px;
+    
+}
+.error{
+    color: #e91111;
+    display: block;
+    padding: 10px;
+   
+}
+/*contactUsنهايه تصميم */
