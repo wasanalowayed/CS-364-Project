@@ -1,17 +1,17 @@
 ## Shelter of love nodejs PROJECT 
 
 
-##A fully functional project of a cat addapting web page and it's writen using HTML ,CSS , JS and MongoDB
+##A fully functional project of a cat adopting web page and it's written using HTML ,CSS , JS and MongoDB
 
-it's web bage for addabting cats and you can also have a delever serves in it 
+it's web bage for adopting cats and you can also have a delever serves in it 
 
-*creat web bage addapting cats 
+*creat web bage adopting cats 
 *web bage Nodejs MongoDB
 *full web bage using HTMl , CSS , js
 *regester page connected to mongodb
 
 #how to install this project 
-you can download the zip file and open it using visual sudio thin you have to make sure that you have nodejs and mogodb so you can yee peoble regestered into the page 
+you can download the zip file and open it using visual sudio then you have to make sure that you have nodejs and mogodb so you can yee peoble regestered into the page 
 creatAcount page are the only page connected to mongodb and to open the project into your prowse you need to 
 * node install express
 * node install nongoose
