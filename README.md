@@ -18,17 +18,17 @@ To install and run this project, follow these steps:
    - Download the zip file and extract it.
    - Open the project folder using Visual Studio Code or any other code editor.
 
-2. ** To Install dependencies:**
+2. **To Install requirements:**
    - Ensure you have Node.js and MongoDB installed on your machine.
    - In your terminal, navigate to the project directory and run:
-     ```bash
+     ``` in bash
      npm install express
      npm install mongoose
      ```
 
-3. ** TO Run the server:**
+3. **TO Run the server:**
    - In the terminal, start the server by running:
-     ```bash
+     ``` in bash
      node server.js
      ```
    - You should see a "connected to DB" message in the terminal.
