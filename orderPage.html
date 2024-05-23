@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الدفع</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="containterOrder">
+
+        <form action="#">
+
+            <div class="row">
+
+                <div class="col">
+
+                    <h3 class="title">العنوان</h3>
+                    <div class="inputBox">
+                        <label for="name">الاسم</label>
+                        <input type="text" id="name" placeholder="الاسم الرباعي" required>
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="email">الايميل </label>
+                        <input type="text" id="email" placeholder="email@domain.com " required>
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="address">الشارع </label>
+                        <input type="text" id="address" placeholder="رقم الشارع  " required>
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="city">المدينة </label>
+                        <input type="text" id="city" placeholder=" اسم المدينة " required>
+                    </div>
+
+                    <dic class="felx">
+
+                        <div class="inputBox">
+                            <label for="state">الحي </label>
+                            <input type="text" id="state" placeholder=" اسم الحي " required>
+                        </div>
+
+                        <div class="inputBox">
+                            <label for="zip">الرمز البريدي </label>
+                            <input type="number" id="zip" placeholder=" 123 456  " required>
+                        </div>
+
+                    </dic>
+                </div>
+
+                <div class="col">
+                    <h3 class="title">الدفع</h3>
+
+                    <div class="inputBox">
+                        <label for="zip">اساليب الدفع</label>
+                        <img src="Images/payment.jpg" alt="">
+                        
+                    </div>
+
+                     0+ استلام عند الملجأ<input type="radio" class="price" name="price" value="free" align-right="" >      
+                    <br>
+                    توصيل للمنزل +30<input type="radio" class="price" name="price" value="notfree" >
+
+                    <div class="inputBox">
+                        <label for="cardName">اسم البطاقة</label>
+                        <input type="text" id="cardName" placeholder=" اسم البطاقة ">
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="cardNum">رقم البطاقة</label>
+                        <input type="text" id="cardNum" placeholder="1111-2222-3333-4444" maxlength="19">
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="exp">تاريخ الانتهاء</label>
+                        <input type="text" id="exp" placeholder=" شهر/سنة  ">
+                    </div>
+
+                    <div class="inputBox">
+                        <label for="cvv">(CVV) رقم التحقق  </label>
+                        <input type="number" id="cvv" placeholder=" (CVV) رقم التحقق   " maxlength="3">
+                    </div>
+                </div>
+
+            </div>
+
+            <input type="submit" value="تأكيد الدفع" class="submit_btn">
+
+        </form>
+    </div>
+
+    <script>
+        var cardNumInput = document.querySelector('#cardNum')
+
+        cardNumInput.addEventListener('keyup', () => {
+            let cNumber = cardNumInput.value
+            cNumber = cNumber.replace(/\s/g, "")
+
+            if(Number(cNumber)){
+                cNumber = cNumber.match(/.{1,4}/g)
+                cNumber = cNumber.join(" ")
+                cardNumInput.value = cNumber
+            }
+        })
+    </script>
+</body>
+</html>
