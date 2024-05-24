@@ -44,11 +44,13 @@ To install and run this project, follow these steps:
   
 ## Image and Icon Sources
 
-**We used these tools to add images and icons to our project:
+**We used these tools to add images and icons to our project:**
 - [Flaticon](https://www.flaticon.com/) - Lots of free icons.
 - [Pexels](https://www.pexels.com/) - Lots of free photos and videos.
 - [Pixabay](https://pixabay.com/) - Lots of free stock photos, vectors, and illustrations.
 - [Draw.io](https://app.diagrams.net/) - Helps create diagrams and flowcharts.
-  *Big thanks to the people who made these tools! They really helped make our project look and work better.
+
+  
+  **Big thanks to the people who made these tools! They really helped make our project look and work better.**
 
   
