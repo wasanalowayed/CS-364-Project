@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,15 +11,16 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
     <header>
 
         <div class="logo"> قائمة الدفع</div>
-        <nav class="navbar"> 
+        <nav class="navbar">
             <a href="homePage.html">الرئيسية</a>
             <a href="homePage.html#about">من نحن</a>
-            <a href="cartPage.html">  حيوانات للتبني </a>
-            <a href="orderPage.html">ابدأ الطلب  </a>
+            <a href="cartPage.html"> حيوانات للتبني </a>
+            <a href="orderPage.html">ابدأ الطلب </a>
             <a href="contactUs.html"> تواصل معنا</a>
         </nav>
 
@@ -73,12 +75,12 @@
                     <div class="inputBox">
                         <label for="zip">اساليب الدفع</label>
                         <img src="Images/payment.jpg" alt="">
-                        
+
                     </div>
 
-                     0+ استلام عند الملجأ<input type="radio" class="price" name="price" value="free" align-right="" >      
+                    0+ استلام عند الملجأ<input type="radio" class="price" name="price" value="free" align-right="">
                     <br>
-                    توصيل للمنزل +30<input type="radio" class="price" name="price" value="notfree" >
+                    توصيل للمنزل +30<input type="radio" class="price" name="price" value="notfree">
 
                     <div class="inputBox">
                         <label for="cardName">اسم البطاقة</label>
@@ -96,7 +98,7 @@
                     </div>
 
                     <div class="inputBox">
-                        <label for="cvv">(CVV) رقم التحقق  </label>
+                        <label for="cvv">(CVV) رقم التحقق </label>
                         <input type="number" id="cvv" placeholder=" (CVV) رقم التحقق   " maxlength="3">
                     </div>
                 </div>
@@ -115,7 +117,7 @@
             let cNumber = cardNumInput.value
             cNumber = cNumber.replace(/\s/g, "")
 
-            if(Number(cNumber)){
+            if (Number(cNumber)) {
                 cNumber = cNumber.match(/.{1,4}/g)
                 cNumber = cNumber.join(" ")
                 cardNumInput.value = cNumber
@@ -123,4 +125,5 @@
         })
     </script>
 </body>
+
 </html>
