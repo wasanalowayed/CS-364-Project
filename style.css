@@ -107,15 +107,14 @@ header #toggler{
     display: none;
 }
 
-header  .icons .imageIcon .heartIcon{
- width: 20px;
- cursor: pointer;
+header .imageIcon{
+    float: right;
+    width: 15px;
+    padding: 20px;   
 }
 
-header .icons::after{
-    content: "";
-    display: table;
-    clear: both;
+header .icons .imageIcon {
+    gap: 10px;
 }
 
 .home{
