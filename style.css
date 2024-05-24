@@ -107,14 +107,15 @@ header #toggler{
     display: none;
 }
 
-header .fa-bars{
-    font-size: 3rem;
-    color: #333;
-    border-radius: .5rem;
-    padding: .5rem 1.5rem;
-    cursor: pointer;
-    border: .1rem solid rgba(0, 0, 0, 3);
-    display: none;
+header  .icons .imageIcon .heartIcon{
+ width: 20px;
+ cursor: pointer;
+}
+
+header .icons::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .home{
