@@ -40,7 +40,8 @@ To install and run this project, follow these steps:
 
 - The only page connected to MongoDB is the "Create Account" page.
 - "creatAcount" page connect to mongo db only without css
-- all the css inciuded inside the Html file 
+- all the css inciuded inside the Html file
+- contactUs page header 
 
   
 ## Image and Icon Sources
@@ -74,6 +75,7 @@ Our project aims to help people adopt animals in a simple way and also help them
 
 ## Future Work
 -We aim to correct all the problems we know of, including linking all pages to mongodb and also separating css from html
+also in contactUs page fixing the header 
 
 
 ## Student name 
