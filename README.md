@@ -58,7 +58,7 @@ To install and run this project, follow these steps:
 Our project aims to help people adopt animals in a simple way and also help them deliver them to their homes. Also, the user can obtain information about each animal very simply.
   
 ## flowchart
-[flowchart](https://drive.google.com/file/d/1OUegUdPQLLpnEAP3kvmbE_exB6zHJMlY/vie)
+[flowchart](https://drive.google.com/file/d/1OUegUdPQLLpnEAP3kvmbE_exB6zHJMlY/view)
 
 ## Screenshoot 
 <div>
