@@ -4,129 +4,133 @@
 <head>
     <meta charset="UTF-8">
     <title>معلومات المستخدم</title>
-  <style>
-    /* بدايه تصميم userInfo */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
+    <style>
+        /* بدايه تصميم userInfo */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: url('/images/catmain.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: #ffebeb; /* Fallback color */
-}
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: url('/images/catmain.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-color: #ffebeb;
+            /* Fallback color */
+        }
 
-header {
-    display: flex;
-    justify-content: flex-end;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10px;
-    margin: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+        header {
+            display: flex;
+            justify-content: flex-end;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            margin: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-.headerButton {
-    background-color: #ff6b6b;
-    border: none;
-    border-radius: 20px;
-    color: #fff;
-    padding: 10px 20px;
-    margin-left: 10px;
-    cursor: pointer;
-    font-size: 16px;
-}
+        .headerButton {
+            background-color: #ff6b6b;
+            border: none;
+            border-radius: 20px;
+            color: #fff;
+            padding: 10px 20px;
+            margin-left: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
 
-.headerButton:hover {
-    background-color: #ff4c4c;
-}
+        .headerButton:hover {
+            background-color: #ff4c4c;
+        }
 
-.Regester, .userInfo {
-    width: 420px;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 2px solid rgba(52, 28, 28, 0.2);
-    backdrop-filter: blur(20px);
-    box-shadow: 0 0 10px rgba(0, 0, 255, 0.2);
-    border-radius: 10px;
-    padding: 30px 40px;
-    margin: 20px auto;
-}
+        .Regester,
+        .userInfo {
+            width: 420px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 2px solid rgba(52, 28, 28, 0.2);
+            backdrop-filter: blur(20px);
+            box-shadow: 0 0 10px rgba(0, 0, 255, 0.2);
+            border-radius: 10px;
+            padding: 30px 40px;
+            margin: 20px auto;
+        }
 
-.Regester h1, .userInfo h1 {
-    text-align: center;
-    margin-bottom: 20px;
-}
+        .Regester h1,
+        .userInfo h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
 
-.userInfo p {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
+        .userInfo p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
 
-.myinputBox {
-    position: relative;
-    width: 100%;
-    height: 50px;
-    margin: 30px 0;
-}
+        .myinputBox {
+            position: relative;
+            width: 100%;
+            height: 50px;
+            margin: 30px 0;
+        }
 
-.myinputBox input {
-    text-align: right;
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    border: none;
-    outline: none;
-    border: 2px solid rgba(255, 255, 255, 2);
-    border-radius: 40px;
-    font-size: 16px;
-    color: #000;
-    padding: 20px 45px 20px 20px;
-}
+        .myinputBox input {
+            text-align: right;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            border: 2px solid rgba(255, 255, 255, 2);
+            border-radius: 40px;
+            font-size: 16px;
+            color: #000;
+            padding: 20px 45px 20px 20px;
+        }
 
-.myinputBox input::placeholder {
-    color: #f7f5f2;
-}
+        .myinputBox input::placeholder {
+            color: #f7f5f2;
+        }
 
-.myinputBox i {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px;
-}
+        .myinputBox i {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 20px;
+        }
 
-.rememeber-forgot {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14.5px;
-    margin: -15px 0 15px;
-}
+        .rememeber-forgot {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14.5px;
+            margin: -15px 0 15px;
+        }
 
-.Regester .btnn, .mybutton {
-    width: 100%;
-    height: 45px;
-    background-color: #fff;
-    border: none;
-    outline: none;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, -1);
-    cursor: pointer;
-    font-size: 16px;
-    color: #000;
-    font-weight: 600;
-}
+        .Regester .btnn,
+        .mybutton {
+            width: 100%;
+            height: 45px;
+            background-color: #fff;
+            border: none;
+            outline: none;
+            border-radius: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, -1);
+            cursor: pointer;
+            font-size: 16px;
+            color: #000;
+            font-weight: 600;
+        }
 
-/*userInfo نهايه تصميم ال */
-</style>
+        /*userInfo نهايه تصميم ال */
+    </style>
 </head>
 
 <body>
