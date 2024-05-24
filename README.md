@@ -66,6 +66,10 @@ Our project aims to help people adopt animals in a simple way and also help them
 <img src="https://github.com/wasanalowayed/CS-346-Project/blob/main/web2.png" alt="Web Image" width="200">
 <img src="https://github.com/wasanalowayed/CS-346-Project/blob/main/web3.png" alt="Web Image" width="200">
 <img src="https://github.com/wasanalowayed/CS-346-Project/blob/main/weeb4.png" alt="Web Image" width="200">
+<img src="https://github.com/wasanalowayed/CS-346-Project/blob/main/web5.png" alt="Web Image" width="200">
+<img src="https://github.com/wasanalowayed/CS-346-Project/blob/main/web6.png" alt="Web Image" width="200">
+
+
 
 
 
