@@ -13,8 +13,7 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
-        
-        /*بداية تصميم loginPage.html*/
+
         * {
             margin: 0;
             padding: 0;
@@ -120,8 +119,6 @@
             color: #000;
             font-weight: 600;
         }
-
-        /*نهاية تصميم loginPage.html*/
     </style>
 </head>
 
@@ -171,7 +168,7 @@
     </div>
 
     <script>
-        document.getElementById('loginForm').addEventListener('submit', function(event) {
+        document.getElementById('loginForm').addEventListener('submit', function (event) {
             event.preventDefault(); // Prevent the default form submission
             const email = document.getElementById('email').value.trim();
             const password = document.getElementById('password').value.trim();
