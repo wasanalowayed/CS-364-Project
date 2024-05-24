@@ -13,7 +13,7 @@
     <section class="favoriteAnimals" id="favoriteAnimals">
 
         <h1 class="headingFavorite">المفضلة</h1>
-      
+
         <!--header section start-->
         <header>
 
@@ -22,37 +22,37 @@
 
             <a href="#" class="logo"> مأوى المحبة<span></span></a>
 
-            <nav class="navbar"> 
+            <nav class="navbar">
                 <a href="homePage.html">الرئيسية</a>
                 <a href="homePage.html#about">من نحن</a>
-                <a href="cartPage.html">  حيوانات للتبني </a>
-                <a href="orderPage.html">ابدأ الطلب  </a>
+                <a href="cartPage.html"> حيوانات للتبني </a>
+                <a href="orderPage.html">ابدأ الطلب </a>
                 <a href="contactUs.html"> تواصل معنا</a>
             </nav>
 
             <div class="icons">
 
                 <div class="imageIcon">
-                <a href="favoritePage.html">
-                <img src="Images/heart.png" alt="" style="width: 20px; ">
-                </a>
+                    <a href="favoritePage.html">
+                        <img src="Images/heart.png" alt="" style="width: 20px; ">
+                    </a>
                 </div>
-            
+
                 <div class="imageIcon">
-                <img src="Images/user.png"  alt="" style="width: 20px;" >
+                    <img src="Images/user.png" alt="" style="width: 20px;">
                 </div>
-            
+
             </div>
 
         </header>
         <!--header section end-->
-    
+
         <div class="listProduct">
             <div class="item">
                 <img src="Images/cat1.jpg" alt="">
                 <h2>القطة اورانج</h2>
                 <div class="detailsProduct">
-                    <h6> 
+                    <h6>
                         الجنس: انثى <br>
                         العمر: سنتين <br>
                         التعقيم: نعم
@@ -70,7 +70,7 @@
             // Handle the toggler for the menu
             const toggler = document.getElementById('toggler'); // Get the toggler checkbox element
             const navbar = document.querySelector('.navbar'); // Get the navbar element
-    
+
             // Add event listener to the toggler checkbox
             toggler.addEventListener('change', () => {
                 // Show or hide the navbar based on the toggler's state
@@ -80,10 +80,10 @@
                     navbar.style.display = 'none'; // Hide the navbar if toggler is not checked
                 }
             });
-    
+
             // Handle add to cart button clicks
             const cartButtons = document.querySelectorAll('.addCart'); // Get all buttons with the class 'addCart'
-            
+
             // Add event listener to each 'add to cart' button
             cartButtons.forEach(button => {
                 button.addEventListener('click', (event) => {
@@ -93,7 +93,8 @@
             });
         });
     </script>
-    
+
 
 </body>
+
 </html>
