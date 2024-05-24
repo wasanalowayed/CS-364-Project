@@ -39,7 +39,8 @@ To install and run this project, follow these steps:
 ## Known Issues
 
 - The only page connected to MongoDB is the "Create Account" page.
-- creatAcount page connect to mongo db only without css
+- "creatAcount" page connect to mongo db only without css
+- all the css inciuded inside the Html file 
 
   
 ## Image and Icon Sources
@@ -52,5 +53,22 @@ To install and run this project, follow these steps:
 
   
   **Big thanks to the people who made these tools! They really helped make our project look and work better.**
-
   
+## gaol 
+Our project aims to help people adopt animals in a simple way and also help them deliver them to their homes. Also, the user can obtain information about each animal very simply.
+  
+## flowchart
+
+
+## Screenshoot 
+<im
+
+## Future Work
+-We aim to correct all the problems we know of, including linking all pages to mongodb and also separating css from html
+
+
+## Student name 
+1- Sadeem Saad Alnfeisah 
+2-Wasan Salem Alowayed
+3-Samar Abdulaziz Almuhanna
+
