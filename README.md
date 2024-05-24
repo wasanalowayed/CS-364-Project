@@ -61,7 +61,15 @@ Our project aims to help people adopt animals in a simple way and also help them
 
 
 ## Screenshoot 
-<im
+
+<img src="https://github.com/wasanalowayed/CS-346-Project/blob/main/web1.png" alt="Web Image" width="200">
+<img src="https://github.com/wasanalowayed/CS-346-Project/blob/main/web2.png" alt="Web Image" width="200">
+<img src="hhttps://github.com/wasanalowayed/CS-346-Project/blob/main/web3.png" alt="Web Image" width="200">
+<img src="https://github.com/wasanalowayed/CS-346-Project/blob/main/weeb4.png" alt="Web Image" width="200">
+
+
+
+
 
 ## Future Work
 -We aim to correct all the problems we know of, including linking all pages to mongodb and also separating css from html
