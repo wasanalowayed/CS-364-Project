@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <title>معلومات المستخدم</title>
+    <link rel="stylesheet" href="style.css"><!--connect to css-->
+</head>
+
+<body>
+    <header>
+        <button id="logoutButton" class="headerButton">تسجيل خروج</button>
+        <button id="deleteAccountButton" class="headerButton">حذف الحساب</button>
+    </header>
+    <div class="userInfo">
+        <h1>معلومات المستخدم</h1><!--all info in regester form -->
+        <p><strong>الاسم الأول:</strong> <span id="firstName"></span></p>
+        <p><strong>الاسم الأخير:</strong> <span id="lastName"></span></p>
+        <p><strong>تاريخ الميلاد:</strong> <span id="birthDate"></span></p>
+        <p><strong>البريد الإلكتروني:</strong> <span id="email"></span></p>
+        <p><strong>رقم الهاتف:</strong> <span id="phone"></span></p>
+        <p><strong>الجنس:</strong> <span id="gender"></span></p>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var logoutButton = document.getElementById("logoutButton");
+
+            logoutButton.addEventListener("click", function () {
+                // Redirect to the login page
+                window.location.href = "login.html";
+            });
+        });
+
+    </script>
+</body>
+
+</html>
