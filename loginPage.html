@@ -58,14 +58,14 @@
 
 
                 <div class="logIn-Button">
-                    <button type="submit" class="btn" onclick="validateInput">دخول</button>
+                    <button type="submit" class="btn" >دخول</button>
                 </div>
 
                 <!--Link login In page with create account page in case user do not have an account-->
                 <div class="createAccpount-page">
                     <p>
                         ألا تمتلك حساب؟
-                        <a href="creatAccount.html"> تسجيل</a>
+                        <a href="createAccount.html"> تسجيل</a>
                     </p>
                 </div>
 
@@ -80,14 +80,6 @@
 <script>
     /* This Line of code will check if the user insert both field email & paswoed */
 
-    /*
-        const email = document.getElementById('email');
-        const password = document.getElementById('password');
-    
-        if (!email.value.trim() || !password.value.trim()) {
-            alert('الرجاء إدخال البريد الإلكتروني وكلمة المرور');
-        }
-    */
     function validateInput() {
         const email = document.getElementById('email');
         const password = document.getElementById('password');
@@ -96,7 +88,7 @@
             alert('الرجاء إدخال البريد الإلكتروني وكلمة المرور');
         }
     }
-    window.addEventListener('click',validateInput, false);
+    window.addEventListener('submit',validateInput, false);
 
 
 </script>
