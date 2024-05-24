@@ -6,6 +6,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>تواصل معنا</title>
   <style>
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: var(--white);
+      padding: 2rem 9%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 1000;
+      box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
+    }
+
+    header .logo {
+      font-size: 2rem;
+      color: #333;
+      font-weight: bolder;
+    }
+
+    header .logo span {
+      color: var(--pink);
+    }
+
+    header .navbar a {
+      font-size: 1.5rem;
+      padding: 0 1.5rem;
+      color: #d7a7aa;
+    }
+
+    header .navbar a:hover {
+      color: var(--pink);
+    }
+
+    header .icons a {
+      font-size: 1.5rem;
+      color: #333;
+      margin-left: 1.5rem;
+    }
+
+    header .icons a:hover {
+      color: var(--lightpink);
+    }
+
+    header #toggler {
+      display: none;
+    }
+
+    header .imageIcon {
+      float: right;
+      width: 15px;
+      padding: 20px;
+    }
+
+    header .icons .imageIcon {
+      gap: 10px;
+    }
+
     /* contactUsبدايه تصميم*/
     body {
       background-color: #ffebeb
