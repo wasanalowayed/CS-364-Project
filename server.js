@@ -1,9 +1,9 @@
-const express = require('express'); // Import the Express framework
-const mongoose = require('mongoose'); // Import Mongoose for MongoDB object modeling
+const express = require('express'); 
+const mongoose = require('mongoose'); 
 const bodyParser = require('body-parser'); // Import body-parser to parse incoming request bodies
 const path = require('path'); // Import path to handle file and directory paths
 
-const app = express(); // Create an instance of Express
+const app = express(); 
 const port = process.env.PORT || 3000; // Define the port, use environment variable if available, otherwise default to 3000
 
 // MongoDB connection string
@@ -20,18 +20,18 @@ mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
 
 // Define User schema and model
 const userSchema = new mongoose.Schema({
-  firstName: { type: String, required: true }, // First name is a required string
-  lastName: { type: String, required: true }, // Last name is a required string
-  birthDate: { type: Date, required: true }, // Birthdate is a required date
-  email: { type: String, required: true, unique: true }, // Email is a required and unique string
-  phone: { type: String, required: true }, // Phone is a required string
-  gender: { type: String, required: true }, // Gender is a required string
-  password: { type: String, required: true } // Password is a required string
+  firstName: { type: String, required: true }, 
+  lastName: { type: String, required: true }, 
+  birthDate: { type: Date, required: true }, 
+  email: { type: String, required: true, unique: true }, 
+  phone: { type: String, required: true }, 
+  gender: { type: String, required: true }, 
+  password: { type: String, required: true } 
 });
 
 const User = mongoose.model('User', userSchema); // Create a User model using the schema
 
-// Serve the registration form
+// To Serve the registration form
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'createAccount.html')); // Send the HTML file for account creation
 });
