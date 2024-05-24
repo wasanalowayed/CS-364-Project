@@ -37,6 +37,18 @@ To install and run this project, follow these steps:
    - Open your browser and go to [http://localhost:3000](http://localhost:3000).
 
 ## Known Issues
+
 - The only page connected to MongoDB is the "Create Account" page.
+- creatAcount page connect to mongo db only without css
+
+  
+## Image and Icon Sources
+
+**We used these tools to add images and icons to our project:
+- [Flaticon](https://www.flaticon.com/) - Lots of free icons.
+- [Pexels](https://www.pexels.com/) - Lots of free photos and videos.
+- [Pixabay](https://pixabay.com/) - Lots of free stock photos, vectors, and illustrations.
+- [Draw.io](https://app.diagrams.net/) - Helps create diagrams and flowcharts.
+  *Big thanks to the people who made these tools! They really helped make our project look and work better.
 
   
