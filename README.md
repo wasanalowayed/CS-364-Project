@@ -79,8 +79,8 @@ Our project aims to help people adopt animals in a simple way and also help them
 also in contactUs page fixing the header 
 
 
-## Student name 
-1- Sadeem Saad Alnfeisah 
-2-Wasan Salem Alowayed
-3-Samar Abdulaziz Almuhanna
+## Authors 
+- Sadeem Alnfeisah 
+-Wasan Alowayed
+-Samar Almuhanna
 
