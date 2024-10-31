@@ -81,6 +81,6 @@ also in contactUs page fixing the header
 
 ## Authors 
 - Sadeem Alnfeisah 
--Wasan Alowayed
--Samar Almuhanna
+- Wasan Alowayed
+- Samar Almuhanna
 
