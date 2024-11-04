@@ -1,8 +1,8 @@
 # Shelter of Love 
 
 ## Overview
-Cat Adoption Platform
-A fully functional project for a cat adoption webpage written using HTML, CSS, JavaScript, Node.js, and MongoDB. This webpage allows users to adopt cats and also includes a delivery service.Please note that the webpage is in Arabic.
+Animals Adoption Platform
+A fully functional project for an animal adoption webpage written using HTML, CSS, JavaScript, Node.js, and MongoDB. This webpage allows users to adopt cats and also includes a delivery service.Please note that the webpage is in Arabic.
 
 ### Features
 - Webpage for adopting cats.
